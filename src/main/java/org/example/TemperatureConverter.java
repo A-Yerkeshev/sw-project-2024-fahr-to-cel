@@ -12,4 +12,8 @@ public class TemperatureConverter {
     public static float kelvintoCel(float kel){
         return (float) (kel-273.15);
     }
+
+    public static float kelvinToFahrenheit(float kel){
+        return (float) ((kel-273.15)*(9/5)+32);
+    }
 }
