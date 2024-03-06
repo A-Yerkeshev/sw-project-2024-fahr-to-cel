@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Define Docker Hub credentials ID
-        DOCKERHUB_CREDENTIALS_ID = 'ayerkesh'
+        DOCKERHUB_CREDENTIALS_ID = 'dockerhub'
         // Define Docker Hub repository name
         DOCKERHUB_REPO = 'ayerkesh/fartocelkelvin'
         // Define Docker image tag
